@@ -57,5 +57,3 @@ Inputs change on falling clock edges; checks run 1 ns after rising edges so nonb
 ## Learning Notes
 
 The design evolved from individually named one-bit registers into an eight-bit vector. The additional registered output is intentional in this version and is included in the timing checks.
-
-I developed the RTL while learning SystemVerilog with OpenAI Codex. Codex assisted with explanations, the testbench, and documentation.
